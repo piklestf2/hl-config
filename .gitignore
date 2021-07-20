@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+!.gitignore
+!cstrike/
+cstrike/*
+!cstrike/userconfig.cfg
+!valve/
+valve/*
+!valve/userconfig.cfg
