@@ -135,7 +135,7 @@ Tau Cannon has 0.5 seconds of idle time and consumes one unit of ammo every 0.3
 seconds after starting the charge. [(source)][2]
 
 Therefore, the damage scales linearly from 0 to 200 over 4 seconds, with
-a minimum of 25 damage. Each additional unit of ammo correlates with 15 more
+a minimum of 25 damage. Each additional unit of ammo corresponds to 15 more
 points of damage. Essentially, the damage formula simplifies to
 
 ```
