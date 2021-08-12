@@ -2,6 +2,7 @@
 *
 
 !.gitignore
+!damage.md
 !cstrike/
 cstrike/*
 !cstrike/userconfig.cfg
