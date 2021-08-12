@@ -131,7 +131,7 @@ flDamage = 200 * (( gpGlobals->time - m_pPlayer->m_flStartCharge) / GetFullCharg
 ```
 
 where `GetFullChargeTime()` is 4 seconds for single player. Additionally, the
-Tau Cannon has 0.5 seconds of idle time and consumes one unit of ammo every 0.3
+charge has 0.5 seconds of idle time and consumes one unit of ammo every 0.3
 seconds after starting the charge. [(source)][2]
 
 Therefore, the damage scales linearly from 0 to 200 over 4 seconds, with
