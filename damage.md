@@ -1,5 +1,5 @@
-# User:BoxFigs/Health and Damage
-[This article][1] is under construction as it lacks elements required to
+# [User:BoxFigs/Health and Damage][1]
+This article is under construction as it lacks elements required to
 provide basic coverage of its subject and/or has yet to be fully integrated
 into the Combine OverWiki.
 
