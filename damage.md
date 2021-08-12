@@ -123,6 +123,44 @@ different depending on if a player is using it or an NPC is using it.
 |Tripmine        |150                    |                       |
 
 
+###### Tau Cannon Charge
+Tau Cannon charge damage is calculated as follows:
+
+```
+flDamage = 200 * (( gpGlobals->time - m_pPlayer->m_flStartCharge) / GetFullChargeTime() );
+```
+
+where `GetFullChargeTime()` is 4 seconds for single player. Additionally, the
+Tau Cannon has 0.5 seconds of idle time and consumes one unit of ammo every 0.3
+seconds after starting the charge. [(source)][2]
+
+Therefore, the damage scales linearly from 0 to 200 over 4 seconds, with
+a minimum of 25 damage. Each additional unit of ammo correlates with 15 more
+points of damage. Essentially, the damage formula simplifies to
+
+```
+flDamage = 50 * chargeTime
+```
+
+The following table shows the damage intervals for each unit of ammo:
+
+|Ammo  |Damage      |
+|------|------------|
+|1     |[25, 30)    |
+|2     |[30, 45)    |
+|3     |[45, 60)    |
+|4     |[60, 75)    |
+|5     |[75, 90)    |
+|6     |[90, 105)   |
+|7     |[105, 120)  |
+|8     |[120, 135)  |
+|9     |[135, 150)  |
+|10    |[150, 165)  |
+|11    |[165, 180)  |
+|12    |[180, 195)  |
+|13    |[195, 200]  |
+
+
 ##### NPCs:
 |Weapon    |Damage (Easy)  |Damage (Normal)  |Damage (Hard)  |Used By                               |
 |----------|---------------|-----------------|---------------|--------------------------------------|
@@ -339,3 +377,4 @@ a direct hit.
 
 
 [1]: https://combineoverwiki.net/wiki/User:BoxFigs/Health_and_Damage
+[2]: https://github.com/ValveSoftware/halflife/blob/master/dlls/gauss.cpp
