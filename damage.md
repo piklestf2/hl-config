@@ -137,8 +137,8 @@ multiply the normal damage by 3. Headshots can be performed only with guns on
 humanoid NPCs or the player.
 
 The following tables show how many body hits/shots with each weapon are
-required to kill specific NPCs (for NPCs with multiple columns, easy is above
-and normal below)
+required to kill specific NPCs (for NPCs with multiple rows, easy is above and
+normal below)
 
 |NPC                       |Crowbar  |Pistol  |Magnum  |SMG  |SMG Grenade  |Shotgun  |Shotgun (double shot)  |Crossbow  |Hivehand  |RPG  |Tau Cannon  |Tau Cannon (charged)  |Gluon Gun  |Grenade  |Satchel Charge  |Tripmine  |
 |--------------------------|---------|--------|--------|-----|-------------|---------|-----------------------|----------|----------|-----|------------|----------------------|-----------|---------|----------------|----------|
