@@ -160,6 +160,8 @@ The following table shows the damage intervals for each unit of ammo:
 |12    |[180, 195)  |
 |13    |[195, 200]  |
 
+(In terms of resource value, that last unit of charge is a true scam...)
+
 
 ##### NPCs:
 |Weapon    |Damage (Easy)  |Damage (Normal)  |Damage (Hard)  |Used By                               |
