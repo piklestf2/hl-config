@@ -1,11 +1,14 @@
 # Ignore everything
-*
+/*
 
 !.gitignore
+
 !damage.md
+
 !cstrike/
 cstrike/*
 !cstrike/userconfig.cfg
+
 !valve/
 valve/*
 !valve/userconfig.cfg
