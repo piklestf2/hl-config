@@ -12,12 +12,3 @@ cstrike/*
 !valve/
 valve/*
 !valve/userconfig.cfg
-!valve/sprites/
-valve/sprites/*
-!valve/sprites/crosshairs.spr
-!valve/sprites/weapon_9mmar.txt
-!valve/sprites/weapon_crowbar.txt
-!valve/sprites/weapon_handgrenade.txt
-!valve/sprites/weapon_satchel.txt
-!valve/sprites/weapon_snark.txt
-!valve/sprites/weapon_tripmine.txt
